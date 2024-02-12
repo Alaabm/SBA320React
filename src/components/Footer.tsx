@@ -1,11 +1,9 @@
-// import React, {useState }from 'react'
-// import {Link} from 'react-router-dom'
-import "../styles/NavBar.css";
+import React from 'react'
 
-const NavBar = () => {
+const Footer = () => {
   return (
     <>
-      <nav>
+    <footer>
         <a href="/">
           <svg
             id="logo-39"
@@ -55,9 +53,9 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-      </nav>
+      </footer>
     </>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default Footer
