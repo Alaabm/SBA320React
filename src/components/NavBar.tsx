@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <>
       <nav>
-        <a href="index.html">
+        <a href="/">
           <svg
             id="logo-39"
             width="50"
@@ -40,10 +40,10 @@ const NavBar = () => {
         <div>
           <ul id="navbar">
             <li><a className="active" href="/Home">Home</a></li>
-            <li><a href="/html/resources.html" >Resources</a></li>
-            <li><a href="/html/reflect.html">Reflect</a></li>
+            <li><a href="/pagesResources" >Resources</a></li>
+            <li><a href="/pages/Reflect">Reflect</a></li>
             {/* <li><a href="/html/about.html">About</a></li> */}
-            <li><a href="/html/contact.html">Contact</a></li>
+            <li><a href="/pages/Contact">Contact</a></li>
           </ul>
         </div>
       
