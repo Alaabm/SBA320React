@@ -1,4 +1,4 @@
-import {useState} from "react";
+import React, {useState} from "react";
 // import React from "react";
 // import ReactDOM from "react-dom";
 import './App.css'
@@ -6,6 +6,9 @@ import ListGroup from "./components/ListGroup";
 // import Alert from "./components/Alert";
 import Button from "./components/Button";
 import NavBar from "./components/NavBar";
+import HeroSection from "./components/HeroSection";
+import TodoList from "./components/TodoList";
+
 // import{BrowserRouter as Router, Route} from 'react-router-dom'
 
 
@@ -28,6 +31,9 @@ function App() {
         <NavBar/>
       </div>
       <div>
+        <HeroSection/>
+      </div>
+      <div>
         {/* listGroup component | returns array of items, with heading of city, and when selected, display in console. */}
         <ListGroup items={items} heading ={"Cities"} onSelectItem={handleSelectItem} />
       </div> 
@@ -43,6 +49,9 @@ function App() {
       <div>
           <Button color='primary' onClick={() => console.log('Clicked')}>Primary</Button>
           <Button color='secondary' onClick={() => console.log('Clicked')}>Secondary</Button>
+      </div>
+      <div>
+        <TodoList/>
       </div>
       <div>
         {/* <Router>

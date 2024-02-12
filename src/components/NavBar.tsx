@@ -1,15 +1,8 @@
 // import React, {useState }from 'react'
 // import {Link} from 'react-router-dom'
-import { Component } from "react";
 import "../styles/NavBar.css"
 
-class NavBar extends Component {
-  state={clicked: false};
-  handleClick = () => {
-    this.setState({clicked: !this.state.clicked});
-  }
-
-  render(){
+const NavBar = () => {
 
   return (
     <>
@@ -46,25 +39,17 @@ class NavBar extends Component {
         </a>
         <div>
           <ul id="navbar">
-            <li><a className="active" href="index.html">Home</a></li>
-            <li><a href="shop.html" >Shop</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a className="active" href="/Home">Home</a></li>
+            <li><a href="/html/resources.html" >Resources</a></li>
+            <li><a href="/html/reflect.html">Reflect</a></li>
+            {/* <li><a href="/html/about.html">About</a></li> */}
+            <li><a href="/html/contact.html">Contact</a></li>
           </ul>
         </div>
-        <div id="mobile"
-        onClick= 
-        {this.handleClick}>
-          <i id="bar"
-          className=
-          {this.state.clicked? "fas fa-times": "fas fa-bars"}></i>
-
-        </div>
+      
       </nav>
     </>
   );
-}
-}
+};
 
 export default NavBar;
