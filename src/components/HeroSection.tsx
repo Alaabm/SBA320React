@@ -10,9 +10,12 @@ const HeroSection = () => {
         <h1>HIDAYA HALAQAH</h1>
         <p>Join us every Friday at 5 PM</p>
         <div className="hero-btns">
-          <Button type="" color="primary" onClick={() => console.log("Clicked")}>
-            ABOUT US
-          </Button>
+          
+          <a href="">
+            <Button type="" color="primary" onClick={() => console.log("Clicked")}>
+              ABOUT US
+            </Button>
+          </a>
         </div>
       </div>
     </>

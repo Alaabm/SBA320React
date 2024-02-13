@@ -3,6 +3,7 @@ import React from "react";
 interface Props {
   type: string;
   children: string;
+  className?: string;
   color?:
     | "primary"
     | "secondary"

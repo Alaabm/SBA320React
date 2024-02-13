@@ -47,15 +47,16 @@ const NavBar = () => {
               <a href="/resources">Resources</a>
             </li>
             <li>
+              <a href="/athkar">Athkar</a>
+            </li>
+            <li>
               <a href="/reflect">Reflect</a>
             </li>
             {/* <li><a href="/html/about.html">About</a></li> */}
             <li>
-              <a href="/contact">Contact</a>
-            </li>
-            <li>
               <a href="/login">Login</a>
             </li>
+
           </ul>
         </div>
       </nav>

@@ -1,6 +1,8 @@
 import React from "react";
 import ListGroup from "../components/ListGroup";
 import Button from "../components/Button";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 const Resources = () => {
   //LISTGROUP
@@ -12,6 +14,8 @@ const Resources = () => {
   };
   return (
     <>
+      <div>
+        <NavBar/>
       <div>
         <h1>Rescource Router</h1>
       </div>
@@ -32,6 +36,9 @@ const Resources = () => {
         {/* {alertVisible && <Alert >My alert</Alert>} */}
         {/* <Button color='primary' onClick={() => setAlertVisibility(true)}>Alert</Button> */}
       </div>
+      <Footer/>
+      </div>
+      
     </>
   );
 };

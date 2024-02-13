@@ -1,13 +1,18 @@
 import React from "react";
-import App from "../App";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
-
     <>
-    
+      <div>
+        <NavBar />
+        <ContactForm/>
+        <Footer />
+      </div>
     </>
-  );  
+  );
 };
 
 export default Contact;

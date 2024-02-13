@@ -1,17 +1,21 @@
 import React from "react";
+// import "../styles/Athkar.css";
+
+
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Athkar from "../components/Athkar";
 
-const Reflect= () => {
+const Athkar = () => {
   return (
     <>
       <div>
         <NavBar />
-        <h1>Reflection Book</h1>
+        <Athkar/>
         <Footer />
       </div>
     </>
   );
 };
 
-export default Reflect;
+export default Athkar;
