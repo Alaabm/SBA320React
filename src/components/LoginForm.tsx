@@ -5,6 +5,7 @@ import "../styles/LoginForm.css";
 const LoginForm = () => {
   return (
     <>
+    <div className='wrapper'>
     <div>
     <form action="">
         <h1>Login</h1>
@@ -26,8 +27,9 @@ const LoginForm = () => {
         </Button>
     </form>
 </div>
+</div>
 </>
-  )
+)
 }
 
 export default LoginForm

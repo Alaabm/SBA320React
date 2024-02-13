@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
       <div className="hero-container">
-        <video src="/video/video-2.mp4" autoPlay loop muted></video>
+        {/* <video src="/video/video-2.mp4" autoPlay loop muted></video> */}
         <h1>HIDAYA HALAQAH</h1>
         <p>Join us every Friday at 5 PM</p>
         <div className="hero-btns">

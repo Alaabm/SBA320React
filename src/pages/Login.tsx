@@ -1,6 +1,7 @@
 import React from "react";
 import LoginForm from "../components/LoginForm";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 const Login = () => {
   return (
@@ -8,6 +9,7 @@ const Login = () => {
       <div>
         <NavBar />
         <LoginForm />
+        <Footer />
       </div>
     </>
   );
