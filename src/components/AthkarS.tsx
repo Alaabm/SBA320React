@@ -1,8 +1,10 @@
 import React from 'react'
+import "../styles/Athkar.css";
 
-const Athkar = () => {
+const AthkarS = () => {
   return (
     <>
+    <div className="athkar">
       <div>
         <h6>Ayat Al-Kursi (Quran 2:255)</h6>
         <br />
@@ -156,9 +158,12 @@ const Athkar = () => {
         <br />
         <p>“اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ”.</p>
       </div>
+
+    </div>
+      
       
     </>
   )
 }
 
-export default Athkar
+export default AthkarS

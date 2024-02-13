@@ -14,6 +14,8 @@ import Resources from "./pages/Resources";
 import Reflect from "./pages/Reflect";
 import NoPage from "./pages/NoPage";
 import Login from "./pages/Login";
+import Athkar from "./pages/Athkar";
+import Dhikr from "./pages/Dhikr";
 
 // import '../App.css'
 
@@ -25,8 +27,10 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/reflect" element={<Reflect />} />
-          <Route path="/resources" element={<Resources />} />
+          {/* <Route path="/reflect" element={<Reflect />} />
+          <Route path="/resources" element={<Resources />} /> */}
+          <Route path="/athkar" element={<Athkar />} />
+          <Route path="/dhikr" element={<Dhikr />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<NoPage />} />
         </Routes>

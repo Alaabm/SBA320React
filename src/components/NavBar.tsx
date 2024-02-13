@@ -43,16 +43,19 @@ const NavBar = () => {
                 Home
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/resources">Resources</a>
-            </li>
+            </li> */}
             <li>
               <a href="/athkar">Athkar</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/reflect">Reflect</a>
-            </li>
+            </li> */}
             {/* <li><a href="/html/about.html">About</a></li> */}
+            <li>
+              <a href="/dhikr">Dhikr</a>
+            </li>
             <li>
               <a href="/login">Login</a>
             </li>
