@@ -1,17 +1,15 @@
 import React from "react";
 // import "../styles/Athkar.css";
-
-
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Athkar from "../components/Athkar";
+import AthkarS from "../components/AthkarS";
 
 const Athkar = () => {
   return (
     <>
       <div>
         <NavBar />
-        <Athkar/>
+        <AthkarS/>
         <Footer />
       </div>
     </>
