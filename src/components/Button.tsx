@@ -1,6 +1,7 @@
 import React from "react";
 
 interface Props {
+  type: string;
   children: string;
   color?:
     | "primary"

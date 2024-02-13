@@ -10,7 +10,7 @@ const HeroSection = () => {
         <h1>HIDAYA HALAQAH</h1>
         <p>Join us every Friday at 5 PM</p>
         <div className="hero-btns">
-          <Button color="primary" onClick={() => console.log("Clicked")}>
+          <Button type="" color="primary" onClick={() => console.log("Clicked")}>
             ABOUT US
           </Button>
         </div>

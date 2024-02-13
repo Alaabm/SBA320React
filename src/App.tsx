@@ -13,19 +13,21 @@ import Contact from "./pages/Contact";
 import Resources from "./pages/Resources";
 import Reflect from "./pages/Reflect";
 import NoPage from "./pages/NoPage";
+import Login from "./pages/Login";
 
 // import '../App.css'
 
 function App() {
   return (
     <>
-      <div>
+      <div>  
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/reflect" element={<Reflect />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </div>
