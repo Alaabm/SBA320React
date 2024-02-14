@@ -1,0 +1,17 @@
+
+
+.wrapper{
+    background: linear-gradient(#2c0741, #dbd9e2);
+    background-color: url(images/img-home.jpg) center center/cover
+    no-repeat;
+    height: 100vh;
+    /* width: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: insert 0 0 0 1000px black ;
+    object-fit:contain;
+    padding-top: 200px;
+    
+    }
+    

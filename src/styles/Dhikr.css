@@ -1,0 +1,28 @@
+/* #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  } */
+  .counter{
+    background: linear-gradient(#ebe9e6, #b0a9d1);
+    background-color: url(images/img-home.jpg) center center/cover
+    no-repeat;
+    height: 20vh;
+    /* width: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: insert 0 0 0 1000px black ;
+    object-fit:contain;
+    padding-top: 50px;
+    position:relative;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    
+
+   
