@@ -29,3 +29,17 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+Catered for the Youth of our community.
+
+Hidaya Halaqah is a a weekly gathering for to empower young women and teach them about the islamic faith. 
+
+With this website, you as a user can get updates and upcoming events. 
+
+You can also access resources such as the morning and evening supplications in the Athkar page. As well as a counter to track your dhikr. 
+
+In the footer, users can use the contact link to contact Hidaya members to ask questions or send ideas of topics they would like to hear. 
+
+Users are also directed toward hidaya halaqahs instagram, and directions to the bronx muslim center.
+
+In addition, we encourage donating for a cause with Pious Projects. 
